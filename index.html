@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        h1{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 48pt;
+            color: rgb(51, 94, 235);
+        }
+    </style>
+</head>
+<body>
+    <h1>Deixe um comentário!</h1>
+    <form action="enviar.php" method="get" autocomplete="on">
+        <p> <label for="inome">Nome:</label></p>
+          <input type="text" name="nome" id="inome">
+        
+        <p><label for="iemail">Email:</label></p>
+         <p><input type="text" name="Email" id="iemail"></p>
+         
+        <p><label for="iwebsite">Website:</label></p>
+            <input type="text" name="Website" id="iwebsite">
+            
+           <p><label for="icomentário">Comentário:</label></p>
+            <textarea name="coment" id="icoment" cols="30" rows="10"></textarea>
+           
+           <h4> Observação: Seu comenetário será publicado após passar pelo moderador</h4>
+    
+    
+           <button type="submit">Enviar</button>
+           <button type="reset">Limpar</button>
+    
+    
+        </form>
+
+
+
+</body>
+</html>
